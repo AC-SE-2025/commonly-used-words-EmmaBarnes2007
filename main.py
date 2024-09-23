@@ -50,7 +50,7 @@ def time_check_functions(word_list, text):
     hash_time = time.time() - start_time
 
     print(f"Linear Search Time: {linear_time:.6f} seconds")
-    print(f"Hashed Search Time: {set_time:.6f} seconds")
+    print(f"Set Search Time: {set_time:.6f} seconds")
     print(f"Hashed Search Time: {hash_time:.6f} seconds")
 
     # Optional: Check if the results are consistent
