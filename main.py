@@ -54,6 +54,7 @@ def time_check_functions(word_list, text):
     print(f"Hashed Search Time: {hash_time:.6f} seconds")
 
     # Optional: Check if the results are consistent
+    assert found_words_linear == found_words_set, "The two methods returned different results!"
     assert found_words_linear == found_words_hash, "The two methods returned different results!"
 
 if __name__ == "__main__":
